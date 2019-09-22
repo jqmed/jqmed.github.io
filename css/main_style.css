@@ -8,18 +8,24 @@ Colorblind safe color palette from colorbrewer2.org.
 */
 
 #body-container {
-  background-color: #80cdc1;
+  background-color: #80cdc1; /* Calls upon the id for turquoise and sets it as
+                            the main background color */
   max-width: 1000px;
   margin: auto;
   height: 100vh;
   border: 2px solid #f7f7f7;
   border-radius: 25px;
   overflow: hidden;
+                            /*Defines the format for divisions denoted as "body
+                          -container" in the html code. */
 }
 body {
   background-color: #f7f7f7;
   color: #a6611a;
   text-align: center;
+  margin: 0;
+                            /*Defines the coloring for the components of the
+                            body of the page.*/
 }
 
 #header {
@@ -30,8 +36,29 @@ h1 {
   color: #f7f7f7;
   padding: 500px
   margin: 0;
+                              /*Sets the standard color for the "heading 1"
+                              style as white and adds a padding width of 500
+                              pixels.*/
 }
 
 #profile-picture {
+  float: left;
+}
 
+#welcome-text {
+  padding-top: 25px;
+  font-size: 25px;            /*Moves the profile picture to the left side of
+                              the body contatiner, and defines the welcome text
+                              division as having an added buffer on the top and
+                              font size of 25 pixels each.*/
+}
+
+#research-interests {
+  text-align: left;
+  font-size: 25px;
+  position: relative;
+  left: 50px;                 /*Defines divisions denoted as "research-
+                              interests" as having a left-aligned, 25 pixel font
+                              size format, and is moved relative to its parent
+                              division.*/
 }
