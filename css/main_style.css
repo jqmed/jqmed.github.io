@@ -62,3 +62,14 @@ h1 {
                               size format, and is moved relative to its parent
                               division.*/
 }
+
+#footer {
+  background-color: #f7f7f7;
+}
+
+h5 {
+  color: #a6611a;
+  margin: 0;                  /*Defines footer divisions as having a white
+                              background, and then defines "heading 5" as having
+                              brown text.*/
+}
