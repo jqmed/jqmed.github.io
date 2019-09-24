@@ -14,5 +14,10 @@ const out = x + y;
 document.write(out);
 */
 
-//A prompt box is used to prompt users to input
-a value before entering a page.
+//A prompt box is used to prompt users to input a value before entering a page.
+
+x = 22;
+const y = 33;
+document.writeln(x + y);
+document.writeln("<br>");
+document.writeln(x += 33);
