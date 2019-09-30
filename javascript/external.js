@@ -12,16 +12,19 @@ const x = "web";
 const y = "mapping";
 const out = x + y;
 document.write(out);
-
+*/
 
 //A prompt box is used to prompt users to input a value before entering a page.
+user_name = window.prompt("Please enter your name", "Type your name here");
 
+
+/*
 x = 22;
 y = 33;
 document.writeln(x + y);
 document.writeln("<br>");
 document.writeln(x += 33);
-*/
+
 
 document.writeln("<button onclick='condition()'COnditionalTest</button>")
 
@@ -37,3 +40,4 @@ function condition()
       document.writeln("You chose Cancel!");
     }
   }
+*/
