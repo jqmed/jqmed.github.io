@@ -18,7 +18,7 @@
     <img  src=images/profile-picture.jpg width=500px height=500px />
   </div>
   <div id="welcome_text">
-    Welcome to my webpage. <br>
+    My name is Jeremy Medina. <br>
     I am a student in the
     <a href="https://www.geo.txstate.edu/">Geography Department</a> at
     <a href="https://txstate.edu/">Texas State University</a> </p>
@@ -33,8 +33,17 @@
     </ol>
   </div>
 </div>
-<div id="footer">
-    <h5>© 2019 by Jeremy Medina</h5>
+<div id="copyright">
+    <script>
+      //Sets a new variable called 'today' and the value
+      var today = new Date();
+      //Sets a new variable called 'year' and runs a function to return the
+      //current year.
+      var year = today.getFullYear();
+      //Writes a string on the bottom of the page reading copyright, the
+      //copyright symbol and appending the year variable 
+      document.writeln("Copyright &copy;" + year);
+    </script>
 </div>
 </body>
 </html>
