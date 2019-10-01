@@ -5,14 +5,16 @@
   <!-- All styling for this HTML document are contained in this external css
   file -->
   <link rel="stylesheet" type="text/css" href="css/main_style.css">
-
+  <script src="javascript/external.js"></script>
 </head>
 <body>
 
   <div id="body-container">
 
     <div id="header">
-        <h1><script src="javascript/external.js"></script></h1>
+        <script>
+        document.write(welcome());
+        </script>
     </div>
     <div id="profile-picture">
     <img  src=images/profile-picture.jpg width=500px height=500px />
@@ -41,7 +43,7 @@
       //current year.
       var year = today.getFullYear();
       //Writes a string on the bottom of the page reading copyright, the
-      //copyright symbol and appending the year variable 
+      //copyright symbol and appending the year variable
       document.writeln("Copyright &copy;" + year);
     </script>
 </div>
