@@ -76,3 +76,10 @@ h5 {
                               background, and then defines "heading 5" as having
                               brown text.*/
 }
+
+#webmap-reviews{
+  text-align: left;
+  font-size: 25px;
+  position: relative;
+
+}
